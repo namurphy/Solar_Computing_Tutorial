@@ -1,0 +1,14 @@
+name: sreu
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.3
+  - numpy=1.18.4
+  - scipy=1.2.3
+  - astropy=4.0.1
+  - sunpy=1.1.4
+  - heliopy=0.11.1
+  - plasmapy=0.3.1
+  - pip:
+    - Flask-Testing
