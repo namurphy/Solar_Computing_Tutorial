@@ -4,11 +4,11 @@
 
 ## Logistics
 
-We will meet at this [Zoom link (to be added)]().  Clinking on this [binder link]() should create an environment with everything we need pre-installed 
+We will meet at this [Zoom link](https://harvard.zoom.us/j/97378386470?pwd=bE1YVHJMRDVnYU4zOTRYeCtFNkd2QT09).  Clinking on this [binder link](https://mybinder.org/v2/gh/namurphy/Solar_Computing_Tutorial/master) will create an environment with everything we need pre-installed that we can each access from our web browser.
 
 ## Tentative schedule
 
-Note: the schedule has been adapted to allow participation in the [Strike for Black Lives](https://www.particlesforjustice.org/strike-details) on Wednesday, June 10.
+The schedule has been adapted to allow participation in the [Strike for Black Lives](https://www.particlesforjustice.org/strike-details) on Wednesday, June 10.
 
 ### Day 1: Unix Shell (Tuesday, June 9 from 3-5 pm EDT)
 
