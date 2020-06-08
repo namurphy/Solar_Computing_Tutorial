@@ -1,4 +1,3 @@
 nano
-vi
 emacs
 vim
