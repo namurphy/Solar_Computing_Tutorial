@@ -1,3 +1,4 @@
+apt-utils
 nano
 emacs
 vim
