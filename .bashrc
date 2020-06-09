@@ -13,4 +13,4 @@ echo " "
 
 # Change the prompt to a dollar sign, which is the standard for bash
 
-export PS1="$ "
+export PS1="\n$ "
