@@ -15,6 +15,7 @@ dependencies:
   - pandas
   - pytest
   - pytest-astropy
+  - pip
   - pip:
     - mpmath
     - lmfit
