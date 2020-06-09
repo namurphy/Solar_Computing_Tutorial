@@ -1,0 +1,166 @@
+    1  ls
+    2  ks
+    3  pwd
+    4  ls
+    5  ls -F
+    6  ls -F --color
+    7  ls -F /home/jovyan
+    8  ls -F /home
+    9  ls --help
+   10  man ls
+   11  help man
+   12  ls -j
+   13  ls
+   14  ls shell-tutorial
+   15  ls -F shell-tutorial
+   16  ls -F shell-tutorial/creatures
+   17  pwd
+   18  ls
+   19  cd shell-tutorial
+   20  pwd
+   21  ls -F
+   22  cd ..
+   23  pwd
+   24  cd -
+   25  cd ~
+   26  pwd
+   27  cd -
+   28  cd
+   29  pwd
+   30  cd .
+   31  pwd
+   32  cd ./shell-tutorial
+   33  pwd
+   34  ls
+   35  ls -a
+   36  cd ~
+   37  ls -a
+   38  pwd
+   39  mkdir thesis
+   40  ls -F
+   41  cd thesis
+   42  nano draft.txt
+   43  nano draft.txt
+   44  pwd
+   45  ls
+   46  touch my_file.txt
+   47  ls
+   48  ls -l
+   49  nano my_file.txt
+   50  mv draft.txt quotes.txt
+   51  ls
+   52  cd ~
+   53  ls
+   54  mv thesis/quotes.txt .
+   55  ls
+   56  mv quotes.txt thesis/quotations.txt
+   57  ls
+   58  ls thesis
+   59  cd thesis
+   60  cp quotations.txt ../quotes.txt
+   61  ls
+   62  ls ..
+   63  cp -r thesis thesis_backup
+   64  pwd
+   65  cd ~
+   66  ls
+   67  cp -r thesis thesis_backup
+   68  ls
+   69  ls thesis thesis_backup
+   70  cd thesis
+   71  ls
+   72  rm my_file.txt
+   73  ls
+   74  rm -i quotations.txt
+   75  ls
+   76  cd ~
+   77  ls
+   78  rm thesis
+   79  rm -r thesis
+   80  ls
+   81  cd shell-tutorial/data
+   82  ls
+   83  cd ..
+   84  alias rm="rm -i"
+   85  alias
+   86  ls
+   87  rm notes.txt
+   88  unalias rm
+   89  alias up="cd .."
+   90  up
+   91  pwd
+   92  up
+   93  pwd
+   94  cd ~
+   95  ls
+   96  cd shell-tutorial
+   97  ls
+   98  cd molecules/
+   99  ls
+  100  ls c*.pdb
+  101  ls c*
+  102  ls *pdb
+  103  ls p?.pdb
+  104  ls pr??ane.pdb
+  105  ls pr?ane.pdb
+  106  ls pr*ane.pdb
+  107  ls pr??ane.*
+  108  pwd
+  109  mkdir 2016-05-29/data/raw
+  110  mkdir -r 2016-05-29/data/raw
+  111  mkdir --help
+  112  mkdir -R 2016-05-29/data/raw
+  113  touch 2016-05-29/data/raw/datafile.dat
+  114  pwd
+  115  ls
+  116  pwd
+  117  wc cubane.pdb
+  118  wc *.pdb
+  119  wc -l *.pdb
+  120  wc -l *.pdb > lengths.txt
+  121  ls
+  122  cat lengths.txt
+  123  sort -n lengths.txt
+  124  sort -n lengths.txt > sorted-lengths.txt
+  125  cat sorted-lengths.txt
+  126  head -n 1 sorted-lengths.txt
+  127  echo The echo command prints text
+  128  echo hello > testfile01.txt
+  129  cat testfile01.txt
+  130  echo >> textfile02.txt
+  131  cat textfile02.txt
+  132  echo hello >> textfile02.txt
+  133  cat textfile02.txt
+  134  echo hello >> textfile02.txt
+  135  cat textfile02.txt
+  136  echo hello hello >> textfile02.txt
+  137  tail -n 2 textfile02.txt
+  138  sort -n lengths.txt
+  139  sort -n lengths.txt | head -n 1
+  140  cd ..
+  141  ls
+  142  cd creatures
+  143  pwd
+  144  ls
+  145  head -n 5 basilisk.dat minotaur.dat unicorn.dat
+  146  for filename in basilisk.dat minotaur.dat unicorn.dat; do     head -n 2 $filename | tail -n 1; done
+  147  for x in basilisk.dat minotaur.dat unicorn.dat; do     head -n 2 $x | tail-n 1; done
+  148  cd ~/shell-tutorial/molecules
+  149  pwd
+  150  cd -
+  151  head -n 2 basilisk.dat
+  152  tail -n 1 basilisk.dat
+  153  cat basilisk.dat
+  154  head -n 2 basilisk.dat | tail -n 1
+  155  head -n 2 basilisk.dat
+  156  cd ..
+  157  pwd
+  158  cd molecules
+  159  ls
+  160  nano middle.sh
+  161  ls
+  162  bash middle.sh
+  163  nano middle.sh
+  164  bash middle.sh propane.pdb
+  165  bash middle.sh cubane.pdb
+  166  history
