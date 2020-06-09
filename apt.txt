@@ -4,3 +4,4 @@ emacs
 vim
 manpages
 man-db
+manpages-posix
