@@ -2,3 +2,5 @@ apt-utils
 nano
 emacs
 vim
+manpages
+man-db
