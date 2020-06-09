@@ -42,8 +42,8 @@ significantly more depth:
 
 ### Python
 
-
  - [Learning to program with Python 3 playlist](https://www.youtube.com/playlist?list=PLQVvvaa0QuDeAams7fkdcwOGBpGdHpXln)
+ - [NumPy for IDL users](http://mathesaurus.sourceforge.net/idl-numpy.html): table of equivalent commands between NumPy and IDL
  - [Python reference documentation](https://docs.python.org/3/)
 
 
