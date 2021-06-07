@@ -8,8 +8,8 @@ Follow Software Carpentry's [instructions for installing the Unix shell](https:/
 
 Follow Software Carpentry's [instructions for installing Python with Anaconda](https://carpentries.github.io/workshop-template/#python).
 
-## Verify that you have a text editor
+## Text editor
 
-[https://carpentries.github.io/workshop-template/#text-editor](Text editor)
+[Verify you have a text editor such as `nano`](https://carpentries.github.io/workshop-template/#text-editor).
 
 ## Download this repository to your computer
