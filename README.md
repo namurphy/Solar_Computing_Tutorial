@@ -4,7 +4,7 @@
 
 ## Logistics
 
-We will meet at this [Zoom link](https://harvard.zoom.us/j/97378386470?pwd=bE1YVHJMRDVnYU4zOTRYeCtFNkd2QT09).  Clicking on this [binder link](https://mybinder.org/v2/gh/namurphy/Solar_Computing_Tutorial/master) will create an environment with everything we need pre-installed that we can each access from our web browser.
+We will meet at this [Zoom link](https://harvard.zoom.us/j/97378386470?pwd=bE1YVHJMRDVnYU4zOTRYeCtFNkd2QT09).  Clicking on this [binder link](https://mybinder.org/v2/gh/namurphy/Solar_Computing_Tutorial/main) will create an environment with everything we need pre-installed that we can each access from our web browser.
 
 ### Day 1: Unix Shell (Tuesday, June 8 from 3:30-5:30 pm EDT)
 
