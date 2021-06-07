@@ -1,11 +1,17 @@
-# Instructions for setting up computing environment
+# Instructions for setting up the computing environment
+
+The first two days of tutorials will follow along with parts of the Software
+Carpentry [Unix tutorial](http://swcarpentry.github.io/shell-novice/) and
+[Python tutorial](https://swcarpentry.github.io/python-novice-inflammation/).
+These tutorials have instructions on how to install the needed software on
+Windows, MacOS, and Linux. 
 
 ## Install the Unix (bash) shell
 
 Please follow Software Carpentry's [instructions for installing the bash
 shell](https://carpentries.github.io/workshop-template/#shell).
 
-## Install Python 3.7+
+## Install Python
 
 Please follow Software Carpentry's [instructions for installing Python with 
 Anaconda](https://carpentries.github.io/workshop-template/#python).
