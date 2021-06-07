@@ -8,6 +8,7 @@ dependencies:
   - scipy=1.6
   - astropy=4.2
   - sunpy=3.0
+  - aiapy=0.5
   - matplotlib=3.4
   - heliopy=0.13
   - plasmapy=0.6
@@ -17,7 +18,6 @@ dependencies:
   - pytest=6.2
   - pytest-astropy
   - pip
-  - aiapy=0.5
   - pip:
     - mpmath
     - lmfit
