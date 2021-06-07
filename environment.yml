@@ -3,19 +3,21 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.8.3
-  - numpy=1.18.4
-  - scipy=1.4.1
-  - astropy=4.0.1
-  - sunpy=1.1.4
-  - matplotlib=3.2.1
-  - heliopy=0.11.1
-  - plasmapy=0.3.1
+  - python=3.9
+  - numpy=1.20
+  - scipy>=1.7
+  - astropy=4.2
+  - sunpy>=3.0
+  - matplotlib>=3.4
+  - heliopy>=0.13
+  - plasmapy>=0.6
   - jupyter
-  - pandas
-  - pytest
+  - pandas=1.2
+  - xarray=0.17
+  - pytest=6.2
   - pytest-astropy
   - pip
+  - aiapy=0.5
   - pip:
     - mpmath
     - lmfit
