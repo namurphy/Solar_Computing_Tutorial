@@ -23,7 +23,7 @@ Please follow these instructions for
 [installing Anaconda](https://docs.anaconda.com/anaconda/install/).
 When this is done, you should have Anaconda Navigator installed.
 
-## Create a Python environment
+## Create a Python environment with Anaconda
 
 The `Solar_Computing_Tutorial-main` directory will contain a file called
 `environment.yml`.  This file contains information about the Python packages
@@ -35,6 +35,19 @@ and [follow these
 instructions](https://docs.anaconda.com/anaconda/navigator/tutorials/manage-environments/#importing-an-environment) 
 with the `environment.yml` file.  This should create a new environment
 called `sreu` that has everything we need installed in it.
+
+If you go to the "Environments" tab on Anaconda Navigator, the `sreu`
+environment should be listed.  Click on the arrow for that 
+environment, and select the option to "Open with Jupyter Notebook".
+If that opens successfully in your browser, then type
+```Python
+import astropy
+import sunpy
+import aiapy
+import plasmapy
+```
+and use shift-Enter to execute the cell.  If everything installed correctly,
+then this should run without any errors.  
 
 ## Using binder as a backup
 
