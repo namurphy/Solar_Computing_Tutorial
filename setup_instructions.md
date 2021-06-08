@@ -43,6 +43,8 @@ called `sreu` that has everything we need installed in it.
 If you go to the "Environments" tab on Anaconda Navigator, the `sreu`
 environment should be listed.  Click on the arrow for that 
 environment, and select the option to "Open with Jupyter Notebook".
+Near the upper right there should be a button for "New".  Under that,
+click "Python 3" to open a Python notebook.
 If that opens successfully in your browser, then type
 ```Python
 import aiapy
