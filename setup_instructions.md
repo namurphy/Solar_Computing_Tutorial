@@ -15,7 +15,8 @@ shell](https://carpentries.github.io/workshop-template/#shell).
 Please download the [zip file for this
 repository](https://github.com/namurphy/Solar_Computing_Tutorial/archive/refs/heads/main.zip)
 and unzip it.  It will create a directory called `Solar_Computing_Tutorial-main`
-that contains the files needed for these tutorials.
+that contains the files needed for these tutorials.  By default it would
+probably end up being in your `Downloads` directory.
 
 ### Install Anaconda
 
@@ -29,7 +30,8 @@ The `Solar_Computing_Tutorial-main` directory that was created after
 [downloading and unzipping the
 repository](https://github.com/namurphy/Solar_Computing_Tutorial/blob/main/setup_instructions.md#download-this-repository-to-your-computer) in a previous step will contain a file called
 `environment.yml`.  This file contains information about the Python packages
-that need to be installed for this tutorial.
+that need to be installed for this tutorial.  You can also 
+[download `environment.yml`](https://raw.githubusercontent.com/namurphy/Solar_Computing_Tutorial/main/environment.yml) directly.
 
 [Open Anaconda
 Navigator](https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-navigator),
