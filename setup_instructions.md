@@ -25,7 +25,9 @@ When this is done, you should have Anaconda Navigator installed.
 
 ### Create a Python environment with Anaconda
 
-The `Solar_Computing_Tutorial-main` directory will contain a file called
+The `Solar_Computing_Tutorial-main` directory that was created after
+[downloading and unzipping the
+repository](https://github.com/namurphy/Solar_Computing_Tutorial/blob/main/setup_instructions.md#download-this-repository-to-your-computer) in a previous step will contain a file called
 `environment.yml`.  This file contains information about the Python packages
 that need to be installed for this tutorial.
 
