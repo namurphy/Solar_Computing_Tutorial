@@ -30,8 +30,8 @@ The `Solar_Computing_Tutorial-main` directory that was created after
 [downloading and unzipping the
 repository](https://github.com/namurphy/Solar_Computing_Tutorial/blob/main/setup_instructions.md#download-this-repository-to-your-computer) in a previous step will contain a file called
 `environment.yml`.  This file contains information about the Python packages
-that need to be installed for this tutorial.  You can also 
-[download `environment.yml`](https://raw.githubusercontent.com/namurphy/Solar_Computing_Tutorial/main/environment.yml) directly.
+that need to be installed for this tutorial.  You can also download
+[`environment.yml`](https://raw.githubusercontent.com/namurphy/Solar_Computing_Tutorial/main/environment.yml) directly.
 
 [Open Anaconda
 Navigator](https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-navigator),
