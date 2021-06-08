@@ -3,8 +3,7 @@
 The first two days of tutorials will follow along with parts of the Software
 Carpentry [Unix tutorial](http://swcarpentry.github.io/shell-novice/) and
 [Python tutorial](https://swcarpentry.github.io/python-novice-inflammation/).
-These tutorials have instructions on how to install the needed software on
-Windows, MacOS, and Linux. 
+The third day will focus on Python for Heliophysics.
 
 ## Install the Unix (bash) shell
 
@@ -34,7 +33,8 @@ that need to be installed for this tutorial.
 Navigator](https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-navigator),
 and [follow these
 instructions](https://docs.anaconda.com/anaconda/navigator/tutorials/manage-environments/#importing-an-environment) 
-with the `environment.yml`.  
+with the `environment.yml` file.  This should create a new environment
+called `sreu` that has everything we need installed in it.
 
 ## Using binder as a backup
 
