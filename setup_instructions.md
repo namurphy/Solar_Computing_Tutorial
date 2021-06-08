@@ -11,17 +11,30 @@ Windows, MacOS, and Linux.
 Please follow Software Carpentry's [instructions for installing the bash
 shell](https://carpentries.github.io/workshop-template/#shell).
 
-## Install Python
-
-Please follow Software Carpentry's [instructions for installing Python with 
-Anaconda](https://carpentries.github.io/workshop-template/#python).
-
 ## Download this repository to your computer
 
 Please download the [zip file for this
 repository](https://github.com/namurphy/Solar_Computing_Tutorial/archive/refs/heads/main.zip)
 and unzip it.  It will create a directory called `Solar_Computing_Tutorial-main`
 that contains the files needed for these tutorials.
+
+## Install Anaconda
+
+Please follow these instructions for
+[installing Anaconda](https://docs.anaconda.com/anaconda/install/).
+When this is done, you should have Anaconda Navigator installed.
+
+## Create a Python environment
+
+The `Solar_Computing_Tutorial-main` directory will contain a file called
+`environment.yml`.  This file contains information about the Python packages
+that need to be installed for this tutorial.
+
+[Open Anaconda
+Navigator](https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-navigator),
+and [follow these
+instructions](https://docs.anaconda.com/anaconda/navigator/tutorials/manage-environments/#importing-an-environment) 
+with the `environment.yml`.  
 
 ## Using binder as a backup
 
