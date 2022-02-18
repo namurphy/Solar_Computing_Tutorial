@@ -6,8 +6,12 @@ def main():
     script = sys.argv[0]
     action = sys.argv[1]
     filenames = sys.argv[2:]
-    assert action in ['--min', '--mean', '--max'], (
-        'Action is not one of --min, --mean, or --max: ' + action)
+    assert action in [
+        '--min',
+        '--mean',
+        '--max',
+    ], f'Action is not one of --min, --mean, or --max: {action}'
+
     for f in filenames:
         process(f, action)
 

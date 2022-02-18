@@ -22,18 +22,14 @@ def main():
 
 def count_file(filename):
     """count the number of lines in a file"""
-    f = open(filename, 'r')
-    nlines = len(f.readlines())
-    f.close()
+    with open(filename, 'r') as f:
+        nlines = len(f.readlines())
     return(nlines)
 
 
 def count_file_like(file_like):
     """count the number of lines in a file-like object (eg stdin)"""
-    n = 0
-    for line in file_like:
-        n = n+1
-    return n
+    return sum(1 for _ in file_like)
 
 
 if __name__ == '__main__':
